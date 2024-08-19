@@ -8,6 +8,10 @@ export interface ServerInfoRoute extends RoutesMap {
       gameVersion: string
       serverName: string
       serverDescription: string
+      /** online & offline */
+      totalPlayersCount: number
+      currentLobbiesCount: number
+      isFriendOnly: boolean
     }
   }
 }
