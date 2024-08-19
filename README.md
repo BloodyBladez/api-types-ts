@@ -1,2 +1,2 @@
-# api-types-ts
-Backend API Types for TypeScript
+# The BloodyBladez API Types
+API Types for BloodyBladez Backend
