@@ -1,11 +1,13 @@
 import { RoutesMap } from "../misc"
 
-export interface MiscRoutes extends RoutesMap {
+export interface ServerInfoRoute extends RoutesMap {
   /** Method: **GET** */
-  "/api-version": {
+  "/server-info": {
     Reply: {
       apiVersion: string
       gameVersion: string
+      serverName: string
+      serverDescription: string
     }
   }
 }
