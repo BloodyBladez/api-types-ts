@@ -1,0 +1,26 @@
+{
+  "name": "bloodybladez-api-types",
+  "version": "1.0.0",
+  "description": "API Types for BloodyBladez Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BloodyBladez/api-types-ts.git"
+  },
+  "keywords": [
+    "api-types",
+    "bloodybladez"
+  ],
+  "author": "dtkdtk0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BloodyBladez/api-types-ts/issues"
+  },
+  "homepage": "https://github.com/BloodyBladez/api-types-ts#readme",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

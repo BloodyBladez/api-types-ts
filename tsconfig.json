@@ -1,0 +1,10 @@
+{
+  "exclude": ["./node_modules/**"],
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": false,
+    "target": "ESNext",
+    "lib": ["ESNext"],
+  }
+}
