@@ -1,6 +1,6 @@
 {
   "name": "bloodybladez-api-types",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "API Types for BloodyBladez Backend",
   "main": "index.js",
   "scripts": {
