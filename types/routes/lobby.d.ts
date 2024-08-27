@@ -1,5 +1,5 @@
 import { LobbyData } from "../lobby"
-import { RoutesMap } from "../misc"
+import { RoutesMap } from "../util"
 
 export interface LobbyRoute extends RoutesMap {
   /** Method: **GET** */
@@ -45,6 +45,14 @@ export interface LobbyRoute extends RoutesMap {
 
   /** Method: **POST** */
   "/lobby/leave": {
+    Reply: undefined
+  }
+
+  /** Method: **POST** */
+  "/lobby/select-character": {
+    Body: {
+      characterId: string
+    }
     Reply: undefined
   }
 

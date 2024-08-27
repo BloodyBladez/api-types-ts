@@ -1,4 +1,4 @@
-import { SerializableObj } from "./misc"
+import { SerializableObj } from "./util"
 
 export interface LobbyData extends SerializableObj {
   id: string
@@ -8,5 +8,7 @@ export interface LobbyData extends SerializableObj {
   maxPlayers: number
 
   memberIds: string[]
+  /** The indexes are equals to the `members` indexes */
+  characterIds: (string | null)[]
   leaderId: string
 }

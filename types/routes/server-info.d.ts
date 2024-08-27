@@ -1,4 +1,4 @@
-import { RoutesMap } from "../misc"
+import { RoutesMap } from "../util"
 
 export interface ServerInfoRoute extends RoutesMap {
   /** Method: **GET** */

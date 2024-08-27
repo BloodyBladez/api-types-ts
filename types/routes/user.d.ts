@@ -1,4 +1,4 @@
-import { RoutesMap } from "../misc"
+import { RoutesMap } from "../util"
 import { UserData } from "../user"
 
 export interface UserRoute extends RoutesMap {
